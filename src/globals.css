@@ -1,0 +1,19 @@
+.Home{
+    text-align: center;
+}
+
+.lista li{
+    list-style: none;
+    cursor: pointer;
+ }
+
+a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+ }
+
+
+
+  
