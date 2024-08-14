@@ -5,12 +5,18 @@
     align-items: center; 
     height: 100%; 
     margin-left: 18px;
+    padding-top: 23px;
+    padding-bottom: 10px;
+}
 
+.fotoStussy{
+    width: 97px;
+    height: 72px;
 }
 
 .lista{
     text-transform: uppercase;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 
@@ -37,6 +43,7 @@ body {
     text-decoration: none;
     color: black;
     padding: 10px;
+    font-size: 18px;
 }
 
 .menu li a:hover {
@@ -53,8 +60,20 @@ header {
 }
 
 .cabecario{
-    border-bottom: 1px solid black;
     height: 89px;
+    
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.stussyBranco{
+
+    width: 97px;
+    height: 72px;
+    padding-top: 20px;
 }
 
 
