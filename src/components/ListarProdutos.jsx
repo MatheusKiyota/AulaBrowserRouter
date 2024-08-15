@@ -4,15 +4,17 @@ import "../globals.css";
 
 export default function ListarProdutos({ produtos }) {
     return (
-        <div>
+        <div className="EstruturaProduto">
             {
-                produtos.map((item) =>
-                    <div className="container"key={item.id}>
+                produtos.map((item) => (
+                    <div className="container" key={item.id}>
+                        <img className="imagem" src={item.imagem} alt={item.titulo} />
                         <p>{item.titulo}</p>
                         <p>{item.valor}</p>
                     </div>
-                )
+                ))
             }
         </div>
     );
 }
+ 

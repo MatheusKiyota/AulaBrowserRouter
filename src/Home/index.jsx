@@ -12,17 +12,20 @@ export default function Home() {
         {
             id: 1,
             titulo: "camisa 1",
-            valor: "R$50,00"
+            valor: "R$50,00",
+            imagem: "src/fotos/moleton.png"
         },
         {
             id: 2,
             titulo: "camisa 2",
-            valor: "R$50,00"
+            valor: "R$50,00",
+            imagem: "src/fotos/camisac.jpg"
         },
         {
             id: 3,
             titulo: "camisa 3",
-            valor: "R$50,00"
+            valor: "R$50,00",
+            imagem: "src/fotos/camisab.jpg"
         }
     ]);
 
@@ -55,5 +58,3 @@ export default function Home() {
         </>
     );
 }
-
-
