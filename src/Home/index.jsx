@@ -11,8 +11,8 @@ export default function Home() {
     const [ValoresCamisas] = useState([
         {
             id: 1,
-            titulo: "camisa 1",
-            valor: "R$50,00",
+            titulo: "LAZY TEE",
+            valor: "R$369,00",
             imagem: "https://eu.stussy.com/cdn/shop/files/1140283_FBLA_1.jpg?v=1723733130&width=1440"
         },
         {
@@ -83,7 +83,7 @@ export default function Home() {
         },
         {
             id: 13,
-            titulo: "camisa 13",
+            titulo: "8 BALL TEE PIGMENT DYED",
             valor: "R$50,00",
             imagem: "https://eu.stussy.com/cdn/shop/files/1905022_NATL_1_4c157eed-6f27-47a2-a426-af661a11bee9.jpg?v=1723159159&width=1440"
         },
@@ -109,9 +109,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="Home">
-                <img className="fotoStussy" src="src/fotos/bola8.png" alt="Imagem de bola 8" />
-            </div>
+         
             <Header />
 
             <Carousel
@@ -124,7 +122,7 @@ export default function Home() {
                 dynamicHeight
             >
                 <div>
-                    <img src="src/fotos/foto.stussy.jpg" alt="Imagem Stussy" />
+                    <img src="https://cdn.awsli.com.br/1920x1920/257/257889/banner/stussy-nov-r3z7iys4wo.jpg" alt="Imagem Stussy" />
                 </div>
             </Carousel>
 

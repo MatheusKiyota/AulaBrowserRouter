@@ -11,10 +11,10 @@ export default function ListarProdutos({ produtos }) {
                         <img className="imagem" src={item.imagem} alt={item.titulo} />
 
                             <div className="descricao">
-                                <p>{item.titulo}</p>
-                                <p>{item.valor}</p>
-                                <button className="botao">Obter</button>
+                                <p className="negrito">{item.titulo}</p>
+                                <p className="cinza">{item.valor}</p>
                             </div>
+                                <button className="botao">Obter</button>
                     </div>
                 ))
             }

@@ -6,6 +6,10 @@ export default function Header() {
 
     <div className="cabecario"> 
         <header>
+        <div className="Home">
+                <img className="fotoStussy" src="src/fotos/bola8.png" alt="Imagem de bola 8" />
+            </div>
+            
             <nav className="lista">
                 <ul className="menu">
                     <li>
