@@ -9,8 +9,12 @@ export default function ListarProdutos({ produtos }) {
                 produtos.map((item) => (
                     <div className="container" key={item.id}>
                         <img className="imagem" src={item.imagem} alt={item.titulo} />
-                        <p>{item.titulo}</p>
-                        <p>{item.valor}</p>
+
+                            <div className="descricao">
+                                <p>{item.titulo}</p>
+                                <p>{item.valor}</p>
+                                <button className="botao">Obter</button>
+                            </div>
                     </div>
                 ))
             }
