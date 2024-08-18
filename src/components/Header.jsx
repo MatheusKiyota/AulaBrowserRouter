@@ -16,10 +16,10 @@ export default function Header() {
                         <Link to="/home">Home</Link>
                     </li>
                     <li>
-                        <Link to="/produto">Produto</Link>
+                        <Link to="/produto">products</Link>
                     </li>
                     <li>
-                        <Link to="/oferta">Oferta</Link>
+                        <Link to="/oferta">  offer</Link>
                     </li>
                 </ul>
             </nav>

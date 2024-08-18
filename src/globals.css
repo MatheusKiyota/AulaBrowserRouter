@@ -10,7 +10,7 @@
 
 .lista{
     text-transform: uppercase;
-    padding-top: 15px;
+    padding-top: 3px;
 }
 
 
@@ -38,7 +38,7 @@ body {
     text-decoration: none;
     color: black;
     padding: 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .menu li a:hover {
@@ -46,6 +46,7 @@ body {
 }
 
 header {
+
     display: flex;
     align-items: center;
     justify-content: space-between; 
@@ -60,8 +61,13 @@ header {
 }
 
 .rodape{
-    background-color: black;
-    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    color: #837b7b;
+    display: flex;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between; 
 }
 
 .stussyBranco{
@@ -70,55 +76,59 @@ header {
     padding-top: 20px;
 }
 
-.container{
+.container {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #ccc;
     margin-bottom: 20px;
     box-sizing: border-box;
-    
+    width: 100%;
+    max-width: 250px; 
+    min-height: 450px; 
+    background-color: #fff; 
 }
 
-.EstruturaProduto{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+.EstruturaProduto {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     gap: 20px;
 }
 
-.imagem{
+.imagem {
     height: 300px;
     background-size: cover;
     background-position: center;
 }
 
-.descricao{
+.descricao {
     font-size: 14px;
     padding-left: 16px;
-} 
+    flex: 1; 
+}
 
 .botao {
     border: white;
-    background-color: white; 
+    background-color: white;
     color: white;
     padding: 10px 20px;
     cursor: pointer;
-    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; 
-    width: 100%; 
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    width: 100%;
 }
 
 .botao:hover {
     background-color: black;
-    color: white; 
+    color: white;
 }
 
-
-p{
-    text-transform: uppercase;
+.botao2:hover{
+    background-color: #302c2c;
 }
+
 
 .negrito{
     font-weight: bold;
@@ -127,4 +137,65 @@ p{
 .cinza{
     color: #302c2c;
 }
+
+.tudo{
+    flex-wrap: wrap;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    margin: 0 auto;
+  }
+
+.camisas{
+    width: 49%;
+    text-align: center;
+}
+
+.image-camisa{
+    width: 90%;
+}
+
+.caixaalta{
+    font-size: 29px;
+    text-transform: uppercase;
+  }
+
+  .arruma-texto{
+    width: 100%;
+    text-align: left;
+  }
+
+  
+  .botao2{
+    text-align: center;
+    border-radius: 20px;
+    line-height: 40px ;
+    border: none;
+    width: 50%;
+    background-color: black;
+    color:white;
+  }
+
+  .precos {
+    display: flex;
+    flex-direction: column;
+}
+
+.valor {
+    margin: 0;
+    font-size: 1em;
+}
+
+.valor-original {
+    text-decoration: line-through; /* Linha no meio do preço original */
+    color: gray; /* Cor do texto com linha */
+}
+
+.valor-descontado {
+    color: rgb(0, 0, 0); /* Cor do preço com desconto */
+    font-weight: bold; /* Negrito */
+    font-size: 1.2em; /* Tamanho da fonte */
+}
+
 
