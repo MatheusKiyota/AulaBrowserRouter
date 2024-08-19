@@ -198,4 +198,68 @@ header {
     font-size: 1.2em; /* Tamanho da fonte */
 }
 
+@media screen and (max-width: 1200px) {
+    .menu {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+
+    .caixaalta {
+        font-size: 26px;
+    }
+
+    .botao, .botao2 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .caixaalta {
+        font-size: 24px;
+    }
+
+    .botao, .botao2 {
+        width: 70%;
+    }
+
+    .tudo {
+        width: 85%;
+    }
+
+    .camisas {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .caixaalta {
+        font-size: 20px;
+    }
+
+    .botao, .botao2 {
+        width: 80%;
+    }
+
+    .tudo {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .image-camisa {
+        width: 100%;
+    }
+}
+
 
