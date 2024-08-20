@@ -154,6 +154,7 @@ header {
 
 .image-camisa{
     width: 90%;
+    padding-bottom: 21px;
 }
 
 .caixaalta{
@@ -259,6 +260,10 @@ header {
 
     .image-camisa {
         width: 100%;
+    }
+
+    .arruma-texto{
+        padding-left: 10px;
     }
 }
 
